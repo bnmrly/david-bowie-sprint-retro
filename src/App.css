@@ -1,0 +1,68 @@
+body {
+  background-color: #32cd32;
+  min-height: 100vh;
+  color: white;
+  cursor: url("https://badhtml.com/img/cursor.gif"), pointer;
+}
+
+.App {
+  padding: 25px;
+}
+
+.app__wrapper {
+  background-color: black;
+
+  padding: 20px;
+}
+
+.app__title {
+  margin-bottom: 10px;
+  color: red;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.app__heading {
+  font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  color: yellow;
+}
+
+.bowie__cards-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  row-gap: 32px;
+  column-gap: 10px;
+}
+
+.bowie__image-container {
+  height: 300px;
+}
+
+.bowie__image {
+  height: 100%;
+}
+
+.card__meta-container {
+  display: flex;
+  align-items: center;
+  min-height: 60px;
+  font-size: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.card__meta-title {
+  margin: 0;
+  flex-basis: 100%;
+  font-size: 0.9rem;
+}
