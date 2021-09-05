@@ -1,18 +1,16 @@
 body {
-  background-color: #32cd32;
+  background-color: #00ff00;
   min-height: 100vh;
   color: white;
-  cursor: url("https://badhtml.com/img/cursor.gif"), pointer;
-}
-
-.App {
-  padding: 25px;
+  cursor: url("http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif"),
+    pointer;
 }
 
 .app__wrapper {
   background-color: black;
-
-  padding: 20px;
+  background-image: url(https://pbs.twimg.com/profile_images/687100459375538177/LpRu9tv3.jpg);
+  background-size: 50px;
+  padding: 10px;
 }
 
 .app__title {
@@ -21,13 +19,16 @@ body {
   font-style: italic;
   font-size: 50px;
   font-weight: bold;
+  border-top: 15px solid #ffff00;
+  border-right: 15px solid #ff0000;
+  border-bottom: 15px solid #0033ff;
+  border-left: 15px solid #ff00ff;
 }
 
 .app__heading {
   font-weight: bold;
-  text-align: center;
   font-size: 40px;
-  color: yellow;
+  font-style: italic;
 }
 
 .bowie__cards-list {
@@ -45,6 +46,10 @@ body {
   column-gap: 10px;
 }
 
+.bowie__card {
+  border: 8px solid red;
+}
+
 .bowie__image-container {
   height: 300px;
 }
@@ -59,10 +64,33 @@ body {
   min-height: 60px;
   font-size: 0.8rem;
   flex-wrap: wrap;
+  background-color: green;
+  color: yellow;
 }
 
 .card__meta-title {
   margin: 0;
   flex-basis: 100%;
-  font-size: 0.9rem;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.neon__blue {
+  color: #0033ff;
+  margin-right: 10px;
+}
+
+.neon__pink {
+  color: #ff00ff;
+  margin-right: 10px;
+}
+
+.neon__yellow {
+  color: #ffff00;
+  margin-right: 10px;
+}
+
+.neon__red {
+  color: red;
+  margin-right: 10px;
 }
