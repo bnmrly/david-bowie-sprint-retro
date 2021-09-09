@@ -73,24 +73,40 @@ body {
   flex-basis: 100%;
   font-size: 22px;
   font-weight: bold;
+  text-align: center;
 }
 
 .neon__blue {
   color: #0033ff;
-  margin-right: 10px;
+  padding-right: 10px;
+  background-color: black;
 }
 
 .neon__pink {
   color: #ff00ff;
-  margin-right: 10px;
+  padding-right: 10px;
+  background-color: black;
 }
 
 .neon__yellow {
   color: #ffff00;
-  margin-right: 10px;
+  padding-right: 10px;
+  background-color: black;
 }
 
 .neon__red {
   color: red;
-  margin-right: 10px;
+  padding-right: 10px;
+  background-color: black;
+}
+
+.inspiration__heading {
+  color: red;
+  font-style: italic;
+}
+
+.copyright {
+  text-align: right;
+  margin-right: 20px;
+  color: red;
 }
