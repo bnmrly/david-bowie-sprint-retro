@@ -90,6 +90,7 @@ body {
 
 .neon__yellow {
   color: #ffff00;
+  padding-left: 10px;
   padding-right: 10px;
   background-color: black;
 }
